@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.coderminion.notifications.MainActivity">
+
+
+    <Button
+        android:id="@+id/simpleNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple Notification" />
+
+        <Button
+        android:id="@+id/inboxstyleNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inbox Style Notification" />
+
+        <Button
+        android:id="@+id/bigtextstyleNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Big Text Style Notification" />
+
+        <Button
+        android:id="@+id/bigPictureStyleNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Big Picture style Notification" />
+
+        <Button
+        android:id="@+id/scheduledNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scheduled Notification" />
+
+
+</LinearLayout>
